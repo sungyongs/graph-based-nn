@@ -1,5 +1,6 @@
-# gcn
-Graph Convolutional Networks (GCNs)
+# Graphs-related Works
+- Graph Convolutional Networks (GCNs)
+- Graph Auto-Encoder (GAE)
 
 ## List of related works
 - [Spectral Networks and Locally Connected Networks on Graphs](https://arxiv.org/abs/1312.6203), Joan Bruna, Wojciech Zaremba, Arthur Szlam, Yann LeCun, ICLR2014
