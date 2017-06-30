@@ -8,3 +8,7 @@ Graph Convolutional Networks (GCNs)
 - [Gated Graph Sequence Neural Networks](https://arxiv.org/abs/1511.05493), Yujia Li, Daniel Tarlow, Marc Brockschmidt, Richard Zemel, ICLR2016
 - [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://arxiv.org/abs/1606.09375), Michaël Defferrard, Xavier Bresson, Pierre Vandergheynst, NIPS2016
 - [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907), Thomas N. Kipf, Max Welling, ICLR2017
+
+## Useful resources
+- [Graph Auto-Encoder](https://github.com/tkipf/gae)
+- [Kipf's blog](http://tkipf.github.io/graph-convolutional-networks/)
