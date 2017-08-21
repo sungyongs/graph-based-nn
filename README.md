@@ -18,4 +18,10 @@
 ## Useful resources
 - [Graph Auto-Encoder](https://github.com/tkipf/gae)
 - [Kipf's blog](http://tkipf.github.io/graph-convolutional-networks/)
-- [Geometric Deep Learning](http://geometricdeeplearning.com/)
+- [Geometric Deep Learning](http://geometricdeeplearning.com/) **highly recommended**
+
+## List of researchers
+- [Thomas Kipf](http://tkipf.github.io/), University of Amsterdam
+- [Joan Bruna](http://cims.nyu.edu/~bruna/), NYU
+- [Michaël Defferrard](http://deff.ch/), EPFL
+- 
