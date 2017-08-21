@@ -18,3 +18,4 @@
 ## Useful resources
 - [Graph Auto-Encoder](https://github.com/tkipf/gae)
 - [Kipf's blog](http://tkipf.github.io/graph-convolutional-networks/)
+- [Geometric Deep Learning](http://geometricdeeplearning.com/)
