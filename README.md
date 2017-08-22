@@ -4,7 +4,7 @@
 
 ## List of related works
 - Graph Convolutional Networks (GCNs)
-  - [Spectral Networks and Locally Connected Networks on Graphs](https://arxiv.org/abs/1312.6203), Joan Bruna, Wojciech Zaremba, Arthur Szlam, Yann LeCun, ICLR2014
+  - [Spectral Networks and Locally Connected Networks on Graphs](https://arxiv.org/abs/1312.6203), Joan Bruna, Wojciech Zaremba, Arthur Szlam, Yann LeCun, ICLR2013
   - [Deep Convolutional Networks on Graph-Structured Data](https://arxiv.org/abs/1506.05163), Mikael Henaff, Joan Bruna, Yann LeCun, 2015
   - [Convolutional Networks on Graphs for Learning Molecular Fingerprints](http://papers.nips.cc/paper/5954-convolutional-networks-on-graphs-for-learning-molecular-fingerprints), David Duvenaud et al., NIPS2015
   - [Gated Graph Sequence Neural Networks](https://arxiv.org/abs/1511.05493), Yujia Li, Daniel Tarlow, Marc Brockschmidt, Richard Zemel, ICLR2016
