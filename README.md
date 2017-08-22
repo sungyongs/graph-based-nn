@@ -19,9 +19,12 @@
 - [Graph Auto-Encoder](https://github.com/tkipf/gae)
 - [Kipf's blog](http://tkipf.github.io/graph-convolutional-networks/)
 - [Geometric Deep Learning](http://geometricdeeplearning.com/) **highly recommended**
+- [CVPR17 tutorial, Geometric and Semantic 3D Reconstruction](https://www.dropbox.com/s/4l6m32tg9yecvow/CVPR%20GDL.pdf?dl=0), 240MB
+
 
 ## List of researchers
 - [Thomas Kipf](http://tkipf.github.io/), University of Amsterdam
 - [Joan Bruna](http://cims.nyu.edu/~bruna/), NYU
 - [Michaël Defferrard](http://deff.ch/), EPFL
-- 
+- [Xavier Bresson](http://www.ntu.edu.sg/home/xbresson/index.html), NTU
+- [Michael M. Bronstein](http://www.inf.usi.ch/bronstein/), Università della Svizzera Italiana
