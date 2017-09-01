@@ -24,6 +24,7 @@
 - [Geometric Deep Learning](http://geometricdeeplearning.com/) **highly recommended**
 - [CVPR17 tutorial, Geometric and Semantic 3D Reconstruction](https://www.dropbox.com/s/4l6m32tg9yecvow/CVPR%20GDL.pdf?dl=0), 240MB
 - [How do I generalize convolution of neural networks to graphs?](https://www.quora.com/How-do-I-generalize-convolution-of-neural-networks-to-graphs), Defferrard's answers in Quora
+- [PointNet](http://stanford.edu/~rqi/pointnet/)
 
 
 ## List of researchers
