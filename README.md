@@ -2,6 +2,9 @@
 - Graph Convolutional Networks (GCNs)
 - Graph Auto-Encoder (GAE)
 
+## Prerequisites
+- Graph signal processing
+
 ## List of related works
 - Graph Convolutional Networks (GCNs)
   - [Spectral Networks and Locally Connected Networks on Graphs](https://arxiv.org/abs/1312.6203), Joan Bruna, Wojciech Zaremba, Arthur Szlam, Yann LeCun, ICLR2014 (**First spectral CNN on graphs**)
@@ -20,6 +23,10 @@
   - [Variational Graph Auto-Encoders](https://arxiv.org/abs/1611.07308), Thomas N. Kipf, Max Welling, NIPS Workshop on Bayesian Deep Learning (2016)
   - [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263), Rianne van den Berg, Thomas N. Kipf, Max Welling
 
+## Tutorials or Workshops
+- IPAM18 Workshop, [New Deep Learning Techniques](http://www.ipam.ucla.edu/programs/workshops/new-deep-learning-techniques/)
+- NIPS17 Tutorial, [Geometric Deep Learning on Graphs and Manifolds](https://nips.cc/Conferences/2017/Schedule?showEvent=8735)
+- CVPR17 Tutorial, [Geometric Deep Learning on Graphs](http://geometricdeeplearning.com/)
 
 ## Useful resources
 - [Graph Auto-Encoder](https://github.com/tkipf/gae)
