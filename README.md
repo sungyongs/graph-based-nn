@@ -9,44 +9,55 @@ This page is to summarize important materials about *graph-based neural networks
 - [Graph Signal Processing GSP](https://arxiv.org/abs/1712.00468) by Ortega et al.
   - This paper provide an overview of core ideas in GSP and their connection to conventional digital signal processing.
   - Signal processing is required to understand the convolution in the spectral domain.
-- Keywords : graph theory, spectral graph theory, discrete Fourier transform (DFT),  
+- Keywords : graph theory, spectral graph theory, discrete Fourier transform (DFT)
 
 ## List of Related Works
-- Early works using graph structure
+- **Early works using graph structure**
   - [A new model for learning in graph domains](http://ieeexplore.ieee.org/document/1555942/)
     - M. Gori, G. Monfardini, F. Scarselli, IJCNN 2005 (**First attempts to generalize neural networks to graphs**)
   - [The graph neural network model](http://ieeexplore.ieee.org/document/4700287/)
     - F. Scarselli, M. Gori, A. C. Tsoi, M. Hagenbuchner, and G. Monfardini, IEEE Trans. Neural Networks 2009
   - These works optimized over the parameterized steady state of some diffusion process (or random walk) on the graph.
-- Review paper (*highly recommend*)
+- **Review paper** (*highly recommend*)
   - [Geometric deep learning: going beyond Euclidean data](https://arxiv.org/abs/1611.08097)
-    - Michael M. Bronstein, Joan Bruna, Yann LeCun, Arthur Szlam, Pierre Vandergheynst, IEEE Signal Processing Magazine 2017 (**First review paper of geometric deep learning**)
+    - Michael M. Bronstein, Joan Bruna, Yann LeCun, Arthur Szlam, Pierre Vandergheynst, IEEE Signal Processing Magazine 2017 
+    - **First review paper of geometric deep learning**
   
-- Graph Convolutional Networks (GCNs)
+- **Graph Convolutional Networks (GCNs)**
   - [Spectral Networks and Locally Connected Networks on Graphs](https://arxiv.org/abs/1312.6203)
-    - Joan Bruna, Wojciech Zaremba, Arthur Szlam, Yann LeCun, ICLR 2014 (**First formulation of CNNs on graphs in the spectral domain**)
+    - Joan Bruna, Wojciech Zaremba, Arthur Szlam, Yann LeCun, ICLR 2014
+    - **First formulation of CNNs on graphs in the spectral domain**
   - [Deep Convolutional Networks on Graph-Structured Data](https://arxiv.org/abs/1506.05163)
-    - Mikael Henaff, Joan Bruna, Yann LeCun, 2015 (**Spatial localization of smooth filters in the frequency domain**)
+    - Mikael Henaff, Joan Bruna, Yann LeCun, 2015
+    - **Spatial localization of smooth filters in the frequency domain**
   - [Convolutional Networks on Graphs for Learning Molecular Fingerprints](http://papers.nips.cc/paper/5954-convolutional-networks-on-graphs-for-learning-molecular-fingerprints)
     - David Duvenaud, Dougal Maclaurin, Jorge Iparraguirre, Rafael Bombarell, Timothy Hirzel, Alan Aspuru-Guzik, Ryan P. Adams, NIPS 2015
   - [Gated Graph Sequence Neural Networks](https://arxiv.org/abs/1511.05493)
-    - Yujia Li, Daniel Tarlow, Marc Brockschmidt, Richard Zemel, ICLR 2016 (**sliding a filter on the vertices as conventional CNNs, not spectral filtering**)
+    - Yujia Li, Daniel Tarlow, Marc Brockschmidt, Richard Zemel, ICLR 2016
+    - **Sliding a filter on the vertices as conventional CNNs, not spectral filtering**
   - [Learning Convolutional Neural Networks for Graphs](https://arxiv.org/abs/1605.05273)
     - Mathias Niepert, Mohamed Ahmed, Konstantin Kutzkov, ICML 2016
   - [Generalizing the Convolution Operator to extend CNNs to Irregular Domains](https://arxiv.org/abs/1606.01166)
-    - Jean-Charles Vialatte, Vincent Gripon, Grégoire Mercier, arXiv 2016 (**generalize CNNs to irregular domains using weight sharing and graph-based operators**)
+    - Jean-Charles Vialatte, Vincent Gripon, Grégoire Mercier, arXiv 2016
+    - **Generalize CNNs to irregular domains using weight sharing and graph-based operators**
   - [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://arxiv.org/abs/1606.09375), [[PyTorch Code]](https://github.com/xbresson/graph_convnets_pytorch/blob/master/README.md) [[TF Code]](https://github.com/mdeff/cnn_graph)
-    - Michaël Defferrard, Xavier Bresson, Pierre Vandergheynst, NIPS 2016, (**Spectral CNN with Chebychev polynomial filters (ChebNet)**)
+    - Michaël Defferrard, Xavier Bresson, Pierre Vandergheynst, NIPS 2016
+    - **Spectral CNN with Chebychev polynomial filters (ChebNet)**
   - [Learning Shape Correspondence with Anisotropic Convolutional Neural Networks](https://arxiv.org/abs/1605.06437)
-    - Davide Boscaini, Jonathan Masci, Emanuele Rodolà, Michael M. Bronstein, NIPS 2016, (**Anisotropic CNN framework**)
+    - Davide Boscaini, Jonathan Masci, Emanuele Rodolà, Michael M. Bronstein, NIPS 2016
+    - **Anisotropic CNN framework**
   - [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907), [[Code]](https://github.com/tkipf/gcn), [[Blog]](http://tkipf.github.io/graph-convolutional-networks/)
-    - Thomas N. Kipf, Max Welling, ICLR 2017, (**Graph Convolutional Networks (GCN) framework, a simplification of ChebNet**)
+    - Thomas N. Kipf, Max Welling, ICLR 2017
+    - **Graph Convolutional Networks (GCN) framework, a simplification of ChebNet**
   - [Geometric Deep Learning on Graphs and Manifolds using Mixture Model CNNs](https://arxiv.org/abs/1611.08402)
-    - Federico Monti, Davide Boscaini, Jonathan Masci, Emanuele Rodolà, Jan Svoboda, Michael M. Bronstein, CVPR 2017 (**MoNets**)
+    - Federico Monti, Davide Boscaini, Jonathan Masci, Emanuele Rodolà, Jan Svoboda, Michael M. Bronstein, CVPR 2017 
+    - **MoNets**
   - [Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks](https://arxiv.org/abs/1704.06803), [[Code]](https://github.com/fmonti/mgcnn)
-    - Federico Monti, Michael M. Bronstein, Xavier Bresson, NIPS 2017, (**Recommendation systems**)
+    - Federico Monti, Michael M. Bronstein, Xavier Bresson, NIPS 2017
+    - **Recommendation systems**
   - [CayleyNets: Graph Convolutional Neural Networks with Complex Rational Spectral Filters](https://arxiv.org/abs/1705.07664)
-    - Ron Levie, Federico Monti, Xavier Bresson, Michael M. Bronstein, arXiv 2017 (**Spectral CNN with complex rational filters (CayleyNet)**)
+    - Ron Levie, Federico Monti, Xavier Bresson, Michael M. Bronstein, arXiv 2017
+    - **Spectral CNN with complex rational filters (CayleyNet)**
   - [Residual Gated Graph ConvNets](https://arxiv.org/abs/1711.07553)
     - Xavier Bresson, Thomas Laurent, arXiv 2017
 
