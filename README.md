@@ -63,7 +63,7 @@ This page is to summarize important materials about *graph-based neural networks
 
 - **Relational Networks (RNs), Relational Reasoning, Interactions**
   - [Interaction networks for learning about objects, relations and physics](https://arxiv.org/abs/1612.00222)
-    - Peter W. Battaglia, Razvan Pascanu, Matthew Lai, Danilo Rezende, Koray Kavukcuoglu), NIPS 2016
+    - Peter W. Battaglia, Razvan Pascanu, Matthew Lai, Danilo Rezende, Koray Kavukcuoglu, NIPS 2016
   - [A simple neural network module for relational reasoning](https://arxiv.org/abs/1706.01427), [[Deepmind Article]](https://deepmind.com/blog/neural-approach-relational-reasoning/), [[Code]](https://github.com/kimhc6028/relational-networks)
     - Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap, arXiv 2017
     - **Consider all possible pairs**
