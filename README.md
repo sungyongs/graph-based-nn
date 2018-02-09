@@ -61,7 +61,7 @@ This page is to summarize important materials about *graph-based neural networks
   - [Residual Gated Graph ConvNets](https://arxiv.org/abs/1711.07553)
     - Xavier Bresson, Thomas Laurent, arXiv 2017
 
-- Relational Networks (RNs), Relational Reasoning
+- **Relational Networks (RNs), Relational Reasoning, Interactions**
   - [Interaction networks for learning about objects, relations and physics](https://arxiv.org/abs/1612.00222)
     - Peter W. Battaglia, Razvan Pascanu, Matthew Lai, Danilo Rezende, Koray Kavukcuoglu), NIPS 2016
   - [A simple neural network module for relational reasoning](https://arxiv.org/abs/1706.01427), [[Deepmind Article]](https://deepmind.com/blog/neural-approach-relational-reasoning/), [[Code]](https://github.com/kimhc6028/relational-networks)
@@ -80,7 +80,7 @@ This page is to summarize important materials about *graph-based neural networks
   - [Graph Attention Networks](https://arxiv.org/abs/1710.10903), [[Code]](https://github.com/PetarV-/GAT)
     - Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, Yoshua Bengio, ICLR 2018
 
-- Graph Auto-Encoder (GAE)
+- **Graph Auto-Encoder (GAE)**
   - [Variational Graph Auto-Encoders](https://arxiv.org/abs/1611.07308), [[Code]](https://github.com/tkipf/gae)
     - Thomas N. Kipf, Max Welling, NIPS Workshop on Bayesian Deep Learning 2016
     - Question: Why the adjacency matrix is reconstructed rather than the feature matrix?
@@ -89,7 +89,7 @@ This page is to summarize important materials about *graph-based neural networks
   - [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263)
     - Rianne van den Berg, Thomas N. Kipf, Max Welling, 2017
     
-- Other Applications using Graph-based Neural Networks
+- **Other Applications using Graph-based Neural Networks**
   - [Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting
 ](https://arxiv.org/abs/1707.01926), [[Code]](https://github.com/liyaguang/DCRNN)
     - Yaguang Li, Rose Yu, Cyrus Shahabi, Yan Liu, ICLR 2018
