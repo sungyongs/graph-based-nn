@@ -3,8 +3,7 @@ This page is to summarize important materials about *graph-based neural networks
 
 ## Background
 (You can find many materials for deep neural networks in other places. Here, I mainly cover materials about graphs.)
-- [Basic Graph Theory](http://data-science-training-xb.com/) by Xavier Bresson
-  - Lecture 3 and 16
+- [Basic Graph Theory](http://data-science-training-xb.com/) by Xavier Bresson, See Lecture 3 and 16
 - [Spectral Graph Theory](http://www.math.ucsd.edu/~fan/research/revised.html) by Fan Chung
 - [Graph Signal Processing GSP](https://arxiv.org/abs/1712.00468) by Ortega et al.
   - This paper provide an overview of core ideas in GSP and their connection to conventional digital signal processing.
@@ -14,7 +13,8 @@ This page is to summarize important materials about *graph-based neural networks
 ## List of Related Works
 - **Early works using graph structure**
   - [A new model for learning in graph domains](http://ieeexplore.ieee.org/document/1555942/)
-    - M. Gori, G. Monfardini, F. Scarselli, IJCNN 2005 (**First attempts to generalize neural networks to graphs**)
+    - M. Gori, G. Monfardini, F. Scarselli, IJCNN 2005
+    - **First attempts to generalize neural networks to graphs**
   - [The graph neural network model](http://ieeexplore.ieee.org/document/4700287/)
     - F. Scarselli, M. Gori, A. C. Tsoi, M. Hagenbuchner, and G. Monfardini, IEEE Trans. Neural Networks 2009
   - These works optimized over the parameterized steady state of some diffusion process (or random walk) on the graph.
